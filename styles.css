@@ -7,9 +7,7 @@
 * {
   margin: 0;
 }
-.content_all {
-  max-width: 1437px;
-}
+
 .header {
   background-color: #131313;
 }
@@ -17,6 +15,9 @@
 .container {
   margin: 0 auto;
   max-width: 1256px;
+}
+.container2 {
+  max-width: 1440px;
 }
 .header-content {
   display: flex;
@@ -74,7 +75,7 @@ nav ul li a {
   align-items: center;
   height: 707px;
   display: flex;
-  max-width: 1437px;
+  max-width: 1440px;
 }
 
 .title {
@@ -133,6 +134,8 @@ nav ul li a {
 }
 .container_complete {
   background-color: #131313;
+  max-width: 1440px;
+  height: 750px;
 }
 .container_project {
   margin-left: 134px;
@@ -150,7 +153,6 @@ nav ul li a {
   font-size: 14px;
   text-transform: uppercase;
   margin-left: 626px;
-  padding-top: 107px;
 }
 .title_h2 {
   text-transform: uppercase;
@@ -158,25 +160,23 @@ nav ul li a {
   font-size: 27px;
   font-family: "Yeseva One";
   line-height: 37px;
-
-  padding-top: 52px;
+  padding-top: 53px;
 }
 .subtitle_h2 {
   color: #ffffff;
   font-size: 14px;
   line-height: 27px;
   font-family: "Nunito - Sans";
-  padding-top: 34px;
+  padding-top: 42px;
 }
 .grid {
   display: grid;
   grid-template-columns: 160px 180px;
   grid-template-rows: 100px 100px;
   color: #ffffff;
-  margin-top: -132px;
   text-transform: uppercase;
-  margin-left: 134px;
   color: #e3b873;
+  padding-top: 42px;
 }
 .description {
   color: #ffffff;
@@ -184,11 +184,11 @@ nav ul li a {
 }
 .rightpic {
   float: right;
-  padding-top: 52px;
   width: 679px;
   height: 482px;
+  margin-top: 52px;
+  margin-right: -100px;
 }
 .icon_arrows {
-  padding-top: 27px;
-  margin-left: 134px;
+  padding-top: 31px;
 }
