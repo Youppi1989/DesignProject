@@ -1,36 +1,39 @@
-@font-face {
+font-face {
   font-family: "Yeseva One";
   src: url("./fonts/YesevaOne-Regular.ttf");
   font-family: "Nunito - Sans";
   src: url("./fonts/NunitoSans-Regular.ttf");
 }
 * {
-  margin: 0;
-}
-
-.header {
-  background-color: #131313;
-}
-
-.container {
   margin: 0 auto;
-  max-width: 1256px;
 }
-.container2 {
+.lending {
   max-width: 1440px;
 }
-.header-content {
+.header {
+  background-color: #131313;
+  max-width: 1440px;
+}
+
+.container2 {
+  max-width: 676px;
+  height: 305px;
+  margin: 0 auto;
+  padding-top: 194px;
+  margin-left: 134px;
+}
+.my-content {
   display: flex;
-  justify-content: space-between;
   height: 83px;
   align-items: center;
+  max-width: 1256px;
+  margin: 0 auto;
 }
 .logo {
   font-size: 11px;
   font-family: "Nunito - Sans";
   color: #e3b873;
   text-transform: uppercase;
-  margin-left: 92px;
   line-height: 15px;
 }
 .menu {
@@ -65,24 +68,18 @@ nav ul li a {
   font-size: 11px;
   line-height: 15px;
   padding: 13px 33px;
-  margin-right: 90px;
-  width: 161px;
 }
 
 .hero {
   background-image: url("./img/Group 7.png");
   background-size: cover;
-  align-items: center;
   height: 707px;
   display: flex;
-  max-width: 1440px;
 }
 
 .title {
-  margin: 0;
   font-size: 40px;
   font-weight: normal;
-  margin-left: 134px;
   color: #ffffff;
   text-transform: uppercase;
   font-family: "Yeseva One";
@@ -93,14 +90,12 @@ nav ul li a {
   color: #e3b873;
 }
 .subtitle {
-  margin: 0;
   font-size: 22px;
   font-family: "Nunito - Sans";
   line-height: 36px;
   color: #ffffff;
-  margin-left: 134px;
-  padding-top: 34px;
-  padding-bottom: 41px;
+  padding-top: 19px;
+  padding-bottom: 37px;
 }
 .button {
   background-color: #e3b873;
@@ -117,7 +112,7 @@ nav ul li a {
   padding: 19px 41px;
   width: 207px;
   height: 51px;
-  margin-left: 134px;
+  margin: 0 auto;
   margin-right: 20px;
 }
 .button2 {
@@ -132,63 +127,61 @@ nav ul li a {
   border: 1px solid #ffffff;
   color: #ffffff;
 }
-.container_complete {
+.project_complete {
   background-color: #131313;
-  max-width: 1440px;
   height: 750px;
+  max-width: 1440px;
+  padding-top: 107px;
 }
-.container_project {
-  margin-left: 134px;
-  margin-right: 134px;
-  width: 1171px;
+.grid_project {
+  max-width: 1171px;
   height: 552px;
+  padding: 0px 61px 0px 60px;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: auto auto auto auto auto;
+  grid-template-areas:
+    "item1"
+    "item2"
+    "item3"
+    "item4"
+    "item5"
+    "item6"
+    "item7"
+    "item8"
+    "item9";
+}
+.item2 {
+  display: flex;
+  margin: 0 auto;
+}
+nav ul li b {
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Yeseva One";
+  text-transform: uppercase;
+  line-height: 19px;
+  margin: 0 auto;
+  margin-right: 60px;
 }
 .rostov {
   color: #e3b873;
 }
-.menu2 {
-  display: flex;
-  align-items: center;
-  font-family: "Yeseva One";
-  font-size: 14px;
-  text-transform: uppercase;
-  margin-left: 626px;
+
+.item4 {
+  color: #ffffff;
 }
-.title_h2 {
-  text-transform: uppercase;
+.title_completed_projects {
   color: #e3b873;
+  font-family: "Yeseva One";
   font-size: 27px;
-  font-family: "Yeseva One";
   line-height: 37px;
-  padding-top: 53px;
-}
-.subtitle_h2 {
-  color: #ffffff;
-  font-size: 14px;
-  line-height: 27px;
-  font-family: "Nunito - Sans";
-  padding-top: 42px;
-}
-.grid {
-  display: grid;
-  grid-template-columns: 160px 180px;
-  grid-template-rows: 100px 100px;
-  color: #ffffff;
+  letter-spacing: -0, 07em;
+  padding-top: 52px;
   text-transform: uppercase;
-  color: #e3b873;
-  padding-top: 42px;
 }
-.description {
+.subtitle_completed_projects {
   color: #ffffff;
-  text-transform: capitalize;
-}
-.rightpic {
-  float: right;
-  width: 679px;
-  height: 482px;
-  margin-top: 52px;
-  margin-right: -100px;
-}
-.icon_arrows {
-  padding-top: 31px;
+  font-family: "";
 }
