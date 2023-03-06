@@ -178,6 +178,7 @@ nav ul li b {
   padding-top: 52px;
   text-transform: uppercase;
   text-align: start;
+  margin-left: -200px;
 }
 .subtitle_completed_projects {
   color: #ffffff;
@@ -191,18 +192,18 @@ nav ul li b {
   display: grid;
   grid-template-columns: 130px 140px;
   grid-template-rows: 100px 100px;
-  color: #ffffff;
+  color: #e3b873;
   text-transform: uppercase;
   font-size: 13px;
-  align-items: start;
+  margin-left: 20px;
+  font-size: "Yeseva-One";
+}
+.description {
+  color: #ffffff;
 }
 .item5 {
-  align-items: start;
-  max-width: 442px;
 }
-.item3 {
-  align-items: start;
-}
+
 .item4 {
   grid-row-start: 2;
   grid-row-end: 9;
@@ -247,18 +248,74 @@ nav ul li b {
 .input {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  border: none;
   outline: none;
-  background: none;
-  max-width: 769px;
-  padding-top: 91px;
+  padding-right: 58px;
 }
 
 .name {
-  width: 30%;
+  width: 231px;
+  border: none;
+  border-bottom: 1px solid #3636364d;
+  font-size: 14px;
+  line-height: 23px;
 }
 
-.phone {
-  width: 30%;
+.number {
+  width: 231px;
+  border: none;
+  border-bottom: 1px solid #3636364d;
+  font-size: 14px;
+  line-height: 23px;
+}
+.forma {
+  width: 769px;
+  height: 51px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 91.5px;
+  display: flex;
+}
+.text-field__label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-size: 13px;
+  color: darkgray;
+  padding-right: 255px;
+}
+.submition {
+  background-color: #e3b873;
+  text-transform: uppercase;
+  color: #ffffff;
+  box-shadow: 0px 5 px 15 px rgb(227, 184, 115, 0.2);
+  border-radius: 2px;
+  font-family: "Nunito - Sans";
+  font-size: 13px;
+  line-height: 27px;
+  padding: 18px 75px 4px;
+  margin-left: -60px;
+}
+.agree {
+  display: inline-flex;
+  padding-top: 39px;
+  margin-left: 500px;
+}
+.agreepersonal {
+  font-size: 14px;
+  font-family: "Nunito - Sans";
+}
+.types_of_repair {
+  font-family: "Yeseva One";
+  font-size: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 76px;
+  line-height: 28px;
+}
+.group11 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 13px;
 }
