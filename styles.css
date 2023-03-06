@@ -270,7 +270,6 @@ nav ul li b {
 .forma {
   width: 769px;
   height: 51px;
-  display: block;
   margin-left: auto;
   margin-right: auto;
   padding-top: 91.5px;
@@ -318,4 +317,52 @@ nav ul li b {
   margin-left: auto;
   margin-right: auto;
   padding-top: 13px;
+}
+.flex_images {
+  width: 1236px;
+  height: 608px;
+  padding-top: 31px;
+  display: flex;
+  padding-right: 30px;
+  margin-left: 25px;
+}
+.rectangle {
+  margin-top: -148px;
+  display: block;
+  padding-right: 31px;
+  padding-left: 20px;
+}
+.one {
+  margin-top: -290px;
+  display: block;
+  padding-left: 34px;
+  padding-top: 13px;
+  font-family: "Nunito - Sans";
+  font-size: 13px;
+  line-height: 27px;
+  color: #959595;
+}
+.redecorating {
+  padding-left: 34px;
+  font-family: "Yeseva One";
+  font-size: 18px;
+  font-style: normal;
+  line-height: 25px;
+  color: #363636;
+}
+.Overhaul {
+  padding-left: 34px;
+  font-family: "Yeseva One";
+  font-size: 18px;
+  font-style: normal;
+  line-height: 25px;
+  color: #363636;
+}
+.Designer {
+  padding-left: 34px;
+  font-family: "Yeseva One";
+  font-size: 18px;
+  font-style: normal;
+  line-height: 25px;
+  color: #363636;
 }
