@@ -444,20 +444,21 @@ step1 {
   text-align: center;
 }
 .step2 {
-  margin-top: -100px;
   color: #fff;
   font-size: 18px;
   font-family: "Yeseva One";
   text-align: center;
   display: flex;
+  margin-left: -70px;
+  padding-top: 102px;
 }
 .Free_metering {
   font-size: 14px;
   font-family: "Nunito - Sans";
   line-height: 19px;
-  padding-top: 20px;
-  padding-top: 202px;
   color: #131313;
+  padding-top: 20px;
+  justify-self: start;
 }
 
 .step_two {
@@ -465,8 +466,7 @@ step1 {
   color: #fff;
   font-size: 18px;
   font-family: "Yeseva One";
-  text-align: center;
 }
 .count2 {
-  padding-top: 114px;
+  padding-top: -50px;
 }
