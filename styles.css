@@ -401,3 +401,72 @@ nav ul li b {
   padding: 17px 21px;
   border-color: #e3b873;
 }
+.section3 {
+  max-width: 1643px;
+  height: 725px;
+  background: #fff;
+}
+
+.house {
+  padding-top: 124px;
+  margin-left: -13px;
+}
+.flex_section3 {
+  max-width: 1643px;
+  height: 725px;
+  display: flex;
+  align-items: flex-start;
+}
+.steps {
+  max-width: 379px;
+  height: 474px;
+  margin-left: -1000px;
+}
+step1 {
+  display: flex;
+  font-size: 14px;
+  font-family: "Nunito - Sans";
+  line-height: 19px;
+  margin-top: 170px;
+}
+
+.specialist {
+  font-size: 14px;
+  font-family: "Nunito - Sans";
+  line-height: 19px;
+  padding-top: 20px;
+}
+.step_one {
+  margin-top: -60px;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Yeseva One";
+  text-align: center;
+}
+.step2 {
+  margin-top: -100px;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Yeseva One";
+  text-align: center;
+  display: flex;
+}
+.Free_metering {
+  font-size: 14px;
+  font-family: "Nunito - Sans";
+  line-height: 19px;
+  padding-top: 20px;
+  padding-top: 202px;
+  color: #131313;
+}
+
+.step_two {
+  margin-top: -60px;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Yeseva One";
+  text-align: center;
+}
+.count2 {
+  padding-top: 114px;
+}
