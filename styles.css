@@ -408,26 +408,26 @@ nav ul li b {
 }
 
 .house {
-  padding-top: 124px;
-  margin-left: -13px;
+  margin-left: -160px;
+  margin-top: -60px;
 }
 .flex_section3 {
-  max-width: 1643px;
-  height: 725px;
+  max-width: 1110px;
   display: flex;
-  align-items: flex-start;
+  margin: 0 auto;
+  padding-top: 241px;
+  padding-left: 161px;
+  justify-content: space-between;
 }
 .steps {
-  max-width: 379px;
-  height: 474px;
+  max-width: 450px;
   margin-left: -1000px;
 }
-step1 {
+.step1 {
   display: flex;
   font-size: 14px;
   font-family: "Nunito - Sans";
   line-height: 19px;
-  margin-top: 170px;
 }
 
 .specialist {
@@ -437,36 +437,42 @@ step1 {
   padding-top: 20px;
 }
 .step_one {
-  margin-top: -60px;
+  line-height: 25px;
   color: #fff;
   font-size: 18px;
   font-family: "Yeseva One";
-  text-align: center;
 }
 .step2 {
-  color: #fff;
-  font-size: 18px;
-  font-family: "Yeseva One";
-  text-align: center;
   display: flex;
-  margin-left: -70px;
-  padding-top: 102px;
+  font-size: 14px;
+  font-family: "Nunito - Sans";
+  line-height: 19px;
+  padding-top: 114px;
 }
+
 .Free_metering {
   font-size: 14px;
   font-family: "Nunito - Sans";
   line-height: 19px;
-  color: #131313;
   padding-top: 20px;
-  justify-self: start;
 }
 
 .step_two {
-  margin-top: -60px;
   color: #fff;
   font-size: 18px;
   font-family: "Yeseva One";
 }
-.count2 {
-  padding-top: -50px;
+
+.count1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e3b873;
+  border-radius: 50%;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  border: 9px solid #ffffff;
+  width: 60px;
 }
