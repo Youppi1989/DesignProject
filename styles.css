@@ -428,6 +428,7 @@ nav ul li b {
   font-size: 14px;
   font-family: "Nunito - Sans";
   line-height: 19px;
+  padding-top: 114px;
 }
 
 .specialist {
@@ -438,26 +439,6 @@ nav ul li b {
 }
 .step_one {
   line-height: 25px;
-  color: #fff;
-  font-size: 18px;
-  font-family: "Yeseva One";
-}
-.step2 {
-  display: flex;
-  font-size: 14px;
-  font-family: "Nunito - Sans";
-  line-height: 19px;
-  padding-top: 114px;
-}
-
-.Free_metering {
-  font-size: 14px;
-  font-family: "Nunito - Sans";
-  line-height: 19px;
-  padding-top: 20px;
-}
-
-.step_two {
   color: #fff;
   font-size: 18px;
   font-family: "Yeseva One";
