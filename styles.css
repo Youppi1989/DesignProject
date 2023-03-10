@@ -214,7 +214,6 @@ nav ul li b {
   display: block;
   margin-left: auto;
   margin-right: auto;
-
   margin-top: 92px;
 }
 .parent {
@@ -421,14 +420,13 @@ nav ul li b {
 }
 .steps {
   max-width: 450px;
-  margin-left: -1000px;
+  margin-left: -500px;
 }
 .step1 {
   display: flex;
   font-size: 14px;
   font-family: "Nunito - Sans";
   line-height: 19px;
-  padding-top: 114px;
 }
 
 .specialist {
@@ -456,4 +454,66 @@ nav ul li b {
   height: 40px;
   border: 9px solid #ffffff;
   width: 60px;
+}
+.container_form {
+  display: flex;
+}
+.black_square {
+  width: 506px;
+  height: 509px;
+}
+.leave_a_request {
+  text-align: center;
+  font-family: "Nunito - Sans";
+  font-size: 18px;
+  line-height: 26px;
+  padding-top: -700px;
+}
+.measurer {
+  margin-top: -500px;
+  display: block;
+  padding-top: 18px;
+  font-family: "Nunito - Sans";
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+  font-style: normal;
+  max-width: 408px;
+}
+.form {
+  margin-left: 120px;
+  background-color: #131313;
+}
+.measurer_input {
+  text-align: center;
+  padding-top: 39px;
+}
+.call_measurer {
+  background-color: #e3b873;
+  text-transform: uppercase;
+  color: #ffffff;
+  box-shadow: 0px 5 px 15 px rgb(227, 184, 115, 0.2);
+  border-radius: 2px;
+  font-family: "Nunito - Sans";
+  font-size: 13px;
+  line-height: 21px;
+  padding: 18px 21px 19px 22px;
+  margin-right: 49px;
+  padding-top: -60px;
+}
+.name2 {
+  background-color: #131313;
+  width: 408px;
+  border: none;
+  border-bottom: 1px solid #ffffff26;
+  font-size: 14px;
+  line-height: 23px;
+}
+.text-field__label2 {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-size: 13px;
+  color: darkgray;
+  margin-top: 20px;
+  margin-left: -360px;
 }
