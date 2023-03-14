@@ -403,11 +403,13 @@ nav ul li b {
 .section3 {
   max-width: 1643px;
   background: #fff;
+  height: 1000px;
 }
 
 .house {
   margin-left: -160px;
   margin-top: -60px;
+  height: 645px;
 }
 .flex_section3 {
   max-width: 1110px;
@@ -529,4 +531,41 @@ nav ul li b {
 .text_help {
   margin-top: 50px;
   margin-left: 1px;
+}
+.section4 {
+  max-width: 1643px;
+  background: #fff;
+  height: 1600px;
+}
+.interior {
+  margin-top: 254px;
+}
+.styles {
+  list-style-type: none;
+}
+.fantasies {
+  text-transform: uppercase;
+  font-size: 27px;
+  color: #e3b873;
+  font-family: "Yeseva One";
+  margin-top: -437px;
+  margin-left: 69px;
+}
+.american {
+  color: #e3b873;
+  text-decoration: underline;
+  margin-top: -20px;
+}
+.styles {
+  padding: 0;
+  font-family: "Nunito - Sans";
+  color: #ffffff;
+  margin-left: 69px;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  grid-gap: 39px;
+  margin-left: 600px;
 }
