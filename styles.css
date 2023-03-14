@@ -279,7 +279,7 @@ nav ul li b {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 48px;
+  padding-top: 10px;
 }
 .text-field__label {
   display: block;
@@ -402,7 +402,6 @@ nav ul li b {
 }
 .section3 {
   max-width: 1643px;
-  height: 1400px;
   background: #fff;
 }
 
@@ -482,7 +481,6 @@ nav ul li b {
 }
 .form {
   margin-left: 120px;
-  background-color: #131313;
 }
 .measurer_input {
   text-align: center;
@@ -499,7 +497,7 @@ nav ul li b {
   line-height: 21px;
   padding: 18px 21px 19px 22px;
   margin-left: 220px;
-  margin-top: 39px;
+  margin-top: 12px;
 }
 .name2 {
   background-color: #131313;
@@ -508,6 +506,7 @@ nav ul li b {
   border-bottom: 1px solid #ffffff26;
   font-size: 14px;
   line-height: 23px;
+  margin-top: -20px;
 }
 .text-field__label2 {
   display: block;
@@ -516,4 +515,18 @@ nav ul li b {
   color: darkgray;
   margin-top: 20px;
   margin-left: -360px;
+}
+.piggy {
+  display: inline-flex;
+  max-width: 441px;
+  margin-left: 40px;
+}
+.pig {
+  max-width: 72px;
+  height: 72px;
+  padding-top: 38px;
+}
+.text_help {
+  margin-top: 50px;
+  margin-left: 1px;
 }
