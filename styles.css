@@ -424,10 +424,12 @@ nav ul li b {
   margin-left: -500px;
 }
 .step1 {
-  display: flex;
+  display: inline-flex;
   font-size: 14px;
   font-family: "Nunito - Sans";
   line-height: 19px;
+  align-items: center;
+  padding-bottom: 87px;
 }
 
 .specialist {
@@ -441,6 +443,7 @@ nav ul li b {
   color: #fff;
   font-size: 18px;
   font-family: "Yeseva One";
+  margin: 0 10px;
 }
 
 .count1 {
@@ -454,7 +457,6 @@ nav ul li b {
   width: 40px;
   height: 40px;
   border: 9px solid #ffffff;
-  width: 60px;
 }
 .container_form {
   display: flex;
@@ -550,11 +552,13 @@ nav ul li b {
   font-family: "Yeseva One";
   margin-top: -437px;
   margin-left: 69px;
+  margin-bottom: 47px;
+  line-height: 37px;
 }
 .american {
   color: #e3b873;
   text-decoration: underline;
-  margin-top: -20px;
+  margin-bottom: 10px;
 }
 .styles {
   padding: 0;
@@ -565,7 +569,18 @@ nav ul li b {
 .gallery {
   display: grid;
   grid-template-columns: 50% 50%;
-
   grid-gap: 39px;
   margin-left: 600px;
+}
+.clocks {
+  margin-top: -640px;
+}
+.sofa {
+  margin-top: -690px;
+}
+.tv {
+  margin-top: -90px;
+}
+.vase {
+  margin-top: -430px;
 }
