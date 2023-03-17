@@ -570,17 +570,55 @@ nav ul li b {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-gap: 39px;
-  margin-left: 600px;
+  margin-left: 360px;
 }
 .clocks {
   margin-top: -640px;
+  margin-left: 150px;
 }
 .sofa {
   margin-top: -690px;
 }
 .tv {
   margin-top: -90px;
+  margin-left: 150px;
 }
 .vase {
   margin-top: -430px;
+}
+.customers {
+  font-family: "Nunito - Sans";
+  font-size: 18px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 24px;
+  line-height: 29px;
+}
+.section5 {
+  max-width: 1236px;
+  background-color: #fff;
+  height: 642px;
+  margin-top: 69px;
+  padding-left: 1px;
+}
+.flex_clients {
+  display: inline-flex;
+  padding-right: 54px;
+  margin-left: 60px;
+  max-width: 1236px;
+  align-items: center;
+}
+.client_two {
+  padding-right: -80px;
+}
+.white_rectangle {
+  max-width: 376px;
+  height: 428px;
+}
+.client_one {
+  margin-right: -54px;
+}
+.client_two {
+  margin-right: -54px;
 }
