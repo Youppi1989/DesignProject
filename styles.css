@@ -605,20 +605,79 @@ nav ul li b {
 .flex_clients {
   display: inline-flex;
   padding-right: 54px;
-  margin-left: 60px;
   max-width: 1236px;
   align-items: center;
-}
-.client_two {
-  padding-right: -80px;
-}
-.white_rectangle {
-  max-width: 376px;
-  height: 428px;
+  padding: 0px 30px 130px 40px;
 }
 .client_one {
-  margin-right: -54px;
+  padding-right: 54px;
 }
 .client_two {
-  margin-right: -54px;
+  padding-right: 54px;
+}
+.white_rectangle {
+  width: 376px;
+  height: 428px;
+  background-color: #ffffff;
+  box-shadow: 0px 10px 50px;
+  rgba (0,0,0,0.04);
+  margin-top: 39px;
+}
+
+.client_photo {
+  border-radius: 50%;
+}
+
+.options {
+  background-color: #e3b873;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-radius: 2px;
+  font-family: "Nunito - Sans";
+  font-size: 18px;
+  border-color: #e3b873;
+  display: inline-flex;
+  height: 54px;
+  width: 293px;
+}
+.stripes {
+  margin-left: 17px;
+  margin-top: 10px;
+}
+.m {
+  margin-left: 15px;
+  margin-top: 17px;
+}
+.vector {
+  margin-left: 13px;
+  margin-top: -5px;
+}
+.notes {
+  margin-left: 17px;
+  margin-top: 10px;
+}
+.days {
+  margin-left: 15px;
+  margin-right: 12px;
+  margin-top: 17px;
+}
+.name_and_picture {
+  display: -webkit-box;
+  margin-top: -390px;
+  margin-left: 48px;
+}
+.client_name {
+  margin-left: 17px;
+  font-family: "Yeseva One";
+  font-size: 18px;
+  margin-top: 15px;
+}
+.client_feedback {
+  font-family: "Nunito - Sans";
+  font-size: 13px;
+  line-height: 23px;
+  color: #959595;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  margin-left: 50px;
 }
