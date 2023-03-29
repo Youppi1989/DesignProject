@@ -42,7 +42,6 @@ font-face {
 }
 
 nav ul li {
-  list-style-type: none;
   font-size: 11px;
 }
 nav ul li a {
@@ -51,6 +50,10 @@ nav ul li a {
   color: #ffffff;
   text-align: center;
   font-family: "Nunito - Sans";
+  text-decoration: none;
+}
+.menu-item {
+  text-decoration: none;
 }
 .phone {
   color: #e3b873;
@@ -694,9 +697,9 @@ nav ul li b {
   background-color: #060000;
   width: 883px;
   height: 445px;
-  justify-content: center;
-
-  margin-top: -220px;
+  margin-top: -240px;
+  position: relative;
+  z-index: 2;
 }
 .questions {
   color: #ffffff;
@@ -743,7 +746,7 @@ nav ul li b {
   margin-right: 181px;
   margin-left: 181px;
 }
-.text-field__label2 {
+.text-field__label3 {
   display: block;
   margin-bottom: 0.25rem;
   font-size: 13px;
@@ -759,4 +762,57 @@ nav ul li b {
   font-size: 14px;
   line-height: 23px;
   margin-left: 180px;
+}
+.third-checkbox {
+  color: #ffffff;
+  font-family: "Nunito - Sans";
+  margin-top: 48px;
+  text-align: center;
+}
+.submit_black_form {
+  background-color: #e3b873;
+  text-transform: uppercase;
+  color: #ffffff;
+  box-shadow: 0px 5 px 15 px rgb(227, 184, 115, 0.2);
+  border-radius: 2px;
+  font-family: "Nunito - Sans";
+  font-size: 13px;
+  line-height: 21px;
+  padding: 19px 64px 20px 64px;
+  align-items: center;
+  display: block;
+  margin-top: 50px;
+}
+.shadow_city {
+  text-align: center;
+  display: block;
+  margin-top: -870px;
+  position: relative;
+  z-index: 1;
+}
+.contact_information {
+  text-align: center;
+  font-family: "Yeseva One";
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 28px;
+  color: #e3b873;
+  margin-top: 52px;
+  position: relative;
+  z-index: 2;
+}
+.contact_icons {
+  display: block;
+  text-align: center;
+  margin-top: 26px;
+  position: relative;
+  z-index: 2;
+}
+.circle_mail {
+  margin-right: 15px;
+}
+.map {
+  display: block;
+  text-align: center;
+  margin-top: 26px;
 }
