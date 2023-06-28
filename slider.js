@@ -1,17 +1,36 @@
-const images = [
-  "./img/image 2.1.png",
-  "./img/Mask Group.jpg",
-  "./img/Mask Group (1).png",
+const entities = [
+  {
+    text1: "Rostov-on-Don<br>LCD admiral",
+    text2: "81 m2",
+    text3: "3.5 months",
+    text4: "Upon request",
+    backgroundImage: "./img/image 2.1.png",
+    menuLiA: "ROSTOV-ON-DON, ADMIRAL",
+  },
+  {
+    text1: "Sochi <br>Thieves",
+    text2: "105 m2",
+    text3: "4 months",
+    text4: "Upon request",
+    backgroundImage: "./img/Mask Group.jpg",
+    menuLiA: "Sochi Thieves",
+  },
+  {
+    text1: "Rostov-on-Don<br> Patriotic",
+    text2: "93 m2",
+    text3: "3 months",
+    text4: "Upon request",
+    backgroundImage: "./img/Mask Group (1).png",
+    menuLiA: "Rostov-on-Don Patriotic",
+  },
 ];
-const titles = ["Title 1", "Title 2"];
-const descriptions = ["Description 1", "Description 2"];
 
 const arrowPrev = document.querySelector(".prev");
 const arrowNext = document.querySelector(".next");
 const dots = document.querySelectorAll(".dot");
-const titleElement = document.querySelector(".title");
-const textElement = document.querySelector(".text");
-const menuLinks = document.querySelectorAll(".menu li a");
+const titleElement = document.querySelector(".text1");
+const textElement = document.querySelector(".text2");
+const menuLinks = document.querySelectorAll(".menu_li_a");
 
 let currentIndex = 0;
 
