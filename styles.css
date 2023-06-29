@@ -96,16 +96,32 @@
   align-items: center;
 }
 
-.slider {
-  margin-left: 100px;
+.slider-indicator {
+  display: flex;
+  margin-top: 10px;
 }
 
-.arrow,
-.dot {
+.slider {
+  margin-left: 100px;
+  display: flex;
+}
+
+.arrow {
   margin: 0 5px;
   cursor: pointer;
 }
 
+.dot {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background-color: grey;
+  margin: 0 5px;
+}
+
+.dot.active {
+  background-color: #ffffff;
+}
 .description {
   margin-top: 20px;
 }

@@ -4,7 +4,7 @@ const entities = [
     text2: "81 m2",
     text3: "3.5 months",
     text4: "Upon request",
-    image: "./img/image 2.1.png",
+    image: "./img/slide1.png",
     menuLiA: "ROSTOV-ON-DON, ADMIRAL",
   },
   {
@@ -12,7 +12,7 @@ const entities = [
     text2: "105 m2",
     text3: "4 months",
     text4: "Upon request",
-    image: "./img/Mask Group.jpg",
+    image: "./img/slide2.png",
     menuLiA: "Sochi Thieves",
   },
   {
@@ -20,7 +20,7 @@ const entities = [
     text2: "93 m2",
     text3: "3 months",
     text4: "Upon request",
-    image: "./img/Mask Group (1).png",
+    image: "./img/slide3.png",
     menuLiA: "Rostov-on-Don Patriotic",
   },
 ];
@@ -38,10 +38,6 @@ const imageElement = document.querySelector(".image");
 let currentIndex = 0;
 
 function updateSlide(index) {
-  dots.forEach((dot, i) => {
-    dot.classList.toggle("active", i === index);
-  });
-
   titleElement.innerHTML = entities[index].text1;
   textElement.innerHTML = entities[index].text2;
   titlElement.innerHTML = entities[index].text3;
@@ -49,6 +45,10 @@ function updateSlide(index) {
 
   menuLinks.forEach((link, i) => {
     link.classList.toggle("active", i === index);
+  });
+
+  dots.forEach((dot, i) => {
+    dot.classList.toggle("active", i === index);
   });
 }
 
